@@ -67,18 +67,12 @@ export function StandingsTableForStageItem({
           </ThSortable>
           {stageItem.type === 'SWISS' ? (
             <>
-              <ThSortable visibleFrom="sm" state={tableState} field="points">
-                {t('points_table_header')}
-              </ThSortable>
               <ThNotSortable>
                 <WinDistributionTitle />
               </ThNotSortable>
             </>
           ) : (
             <>
-              <ThSortable visibleFrom="sm" state={tableState} field="points">
-                {t('points_table_header')}
-              </ThSortable>
               <ThNotSortable>
                 <WinDistributionTitle />
               </ThNotSortable>
