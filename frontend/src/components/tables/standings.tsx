@@ -44,11 +44,6 @@ export function StandingsTableForStageItem({
             {formatStageItemInput(team_with_input, stageItemsLookup)}
           </Text>
         </Table.Td>
-        <Table.Td visibleFrom="sm" style={{ minWidth: '8rem' }}>
-          <Text truncate="end" lineClamp={1} inherit>
-            {team_with_input.points}
-          </Text>
-        </Table.Td>
         <Table.Td style={{ minWidth: '10rem' }}>
           <WinDistribution
             wins={team_with_input.wins}
@@ -73,11 +68,11 @@ export function StandingsTableForStageItem({
           {stageItem.type === 'SWISS' ? (
             <>
               <ThSortable visibleFrom="sm" state={tableState} field="points">
-                {t('elo_score')}
+                {t('points_table_header')}
               </ThSortable>
-              <ThSortable state={tableState} field="elo_score">
-                {t('elo_score')}
-              </ThSortable>
+              <ThNotSortable>
+                <WinDistributionTitle />
+              </ThNotSortable>
             </>
           ) : (
             <>
