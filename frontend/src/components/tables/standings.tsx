@@ -49,26 +49,14 @@ export function StandingsTableForStageItem({
             {team_with_input.points}
           </Text>
         </Table.Td>
-        {stageItem.type === 'SWISS' ? (
-          <Table.Td style={{ minWidth: '10rem' }}>
-            <PlayerScore
-              score={team_with_input.points}
-              min_score={minPoints}
-              max_score={maxPoints}
-              decimals={0}
-              fontSizeInPixels={fontSizeInPixels}
-            />
-          </Table.Td>
-        ) : (
-          <Table.Td style={{ minWidth: '10rem' }}>
-            <WinDistribution
-              wins={team_with_input.wins}
-              draws={team_with_input.draws}
-              losses={team_with_input.losses}
-              fontSizeInPixels={fontSizeInPixels}
-            />
-          </Table.Td>
-        )}
+        <Table.Td style={{ minWidth: '10rem' }}>
+          <WinDistribution
+            wins={team_with_input.wins}
+            draws={team_with_input.draws}
+            losses={team_with_input.losses}
+            fontSizeInPixels={fontSizeInPixels}
+          />
+        </Table.Td>
       </Table.Tr>
     ));
 
