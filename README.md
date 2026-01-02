@@ -150,6 +150,13 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
 <table>
 <tr>
     <td align="center">
+        <a href="https://github.com/D4niel44">
+            <img src="https://avatars.githubusercontent.com/u/53308806?v=4" width="100;" alt="D4niel44"/>
+            <br />
+            <sub><b>Daniel Linares</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/evroon">
             <img src="https://avatars.githubusercontent.com/u/11857441?v=4" width="100;" alt="evroon"/>
             <br />
@@ -183,15 +190,15 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
             <br />
             <sub><b>Max Ricketts-Uy</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/sevi418">
             <img src="https://avatars.githubusercontent.com/u/91365763?v=4" width="100;" alt="sevi418"/>
             <br />
             <sub><b>Sevi C</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/nvanheuverzwijn">
             <img src="https://avatars.githubusercontent.com/u/943226?v=4" width="100;" alt="nvanheuverzwijn"/>
@@ -226,7 +233,8 @@ See the [contribution docs](https://docs.bracketapp.nl/docs/community/contributi
             <br />
             <sub><b>Oscar Tobar Rios</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/babeuh">
             <img src="https://avatars.githubusercontent.com/u/60193302?v=4" width="100;" alt="babeuh"/>
